@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoodTunes 🎶</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>MoodTunes 🎧</h1>
+  <p>Select your mood to get a playlist suggestion:</p>
+
+  <div id="mood-buttons">
+    <button onclick="showPlaylist('happy')">Happy 😊</button>
+    <button onclick="showPlaylist('chill')">Chill 😌</button>
+    <button onclick="showPlaylist('focused')">Focused 📚</button>
+    <button onclick="showPlaylist('energetic')">Energetic 💪</button>
+  </div>
+
+  <div id="playlist-output"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
